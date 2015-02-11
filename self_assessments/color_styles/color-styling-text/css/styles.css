@@ -1,0 +1,28 @@
+/* body */
+body{
+	background-color: #eeecec;
+	font-family: Arial;
+}
+/* Paragraphs */
+p{
+	padding:2px 5px 2px 5px;
+	margin: 15px 0px 0px 25px;
+	width:150px;
+	border-radius: 1px;
+	font-size: .75em;
+}
+#zero{
+	background-color: #B4AFAA;
+}
+#one{
+	background-color: #42F500;
+}
+#two{
+	background-color: #8AFF00;
+}
+#three{
+	background-color: #A6FFFF;
+}
+#four{
+	background-color: #FAFCFC;
+}

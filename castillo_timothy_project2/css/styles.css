@@ -1,0 +1,104 @@
+/********* Body Tag ********/
+body {
+    background-color: #4f4f4f;
+    color:#3f2F2f;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+/******** Divs ********/
+#container {
+    background-color:#efefef;
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+/******** Headers ********/
+h1{
+    font-size: 3.5em;
+    margin:30px 0 0 0;
+    padding: 3px 0 5px;
+    width: 100%;
+    text-align: center;
+    border-bottom: solid 2px #343434;
+}
+h2, h3{
+    width: 50%;
+    padding: 5px 5px 10px 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 50, 50, .25);
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    box-shadow: inset 0 -25px 45px rgba(100,0,0,.25);
+}
+/******** Navigation ********/
+.navigation{
+    list-style-type: none;
+    margin: 0;
+}
+.navigation li{
+    display: inline-block;
+    margin: 0;
+}
+.navigation li a{
+    display: inline-block;
+    margin: 0;
+    padding: 20px ;
+    width: 150px;
+    border: solid #343434 2px;
+    border-top: none;
+    text-align: center;
+    text-decoration: none;
+    color: #3f0000;
+    height:25px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.25), inset 0 -25px 45px rgba(100,100,100,.05);
+}
+.navigation li a:hover{
+    box-shadow: inset 0 2px 2px rgba(0,0,0,.25), inset 0 25px 45px rgba(100,100,100,.05);
+}
+/******** Links ********/
+a:link{
+    text-decoration: none;
+    color: #0d61b5;
+}
+a:hover{
+    text-decoration: underline;
+    color: #53a1ef;
+}
+a:active{
+    text-decoration: underline;
+    color: #899aaa;
+}
+a:visited{
+    color: #b6bec6;
+}
+
+/******** Lists ********/
+ol {
+    font-weight: 700;
+}
+ol li {
+    width: 350px;
+    margin: 10px;
+}
+/******** Images ********/
+figure{
+    display: block;
+    width: 260px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #9d9f9f;
+    box-shadow: inset 0 0 5px rgba(0,0,0,1);
+}
+figure img{
+    display: block;
+    margin: 0 auto;
+    max-height: 200px;
+}
+figcaption{
+    display: block;
+    font-size: 10px;
+    margin: 0 auto;
+    width: 250px;
+    font-style: italic;
+    line-height: 18px;
+}
